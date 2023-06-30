@@ -10,4 +10,4 @@ var image=["https://images.unsplash.com/photo-1614360182734-121501b81cc2?ixlib=r
 
 var rand= Math.floor(Math.random()*image.length);
 
-document.body.style.backgroundImage = `url("${iamge[rand]}")`;
+document.body.style.backgroundImage = `url("${image[rand]}")`;
