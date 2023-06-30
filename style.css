@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+h1{
+	font-family: 'Montserrat', sans-serif;
+   	font-size:1in;
+user-select: none;
+	margin:20;
+	font-weight:400;
+//background-image:url("https://images.unsplash.com/photo-1614360182734-121501b81cc2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1466&q=80");
+background-image: linear-gradient( 135deg, #F6CEEC 10%, #D939CD 100%);
+//background-color: #D9AFD9;
+background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+  
+//	background: linear-gradient(90deg,#027fff,#0099c0 10%,#59d5f4 20%,#69dcc3 30%,#f5db5d 40%,#ff8827 50%);
+	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+
+h1:hover
+{
+   	font-family:'Montserrat', monospace;
+	 font-size:1in;
+	font-weight:400;
+	background: linear-gradient(90deg, white 50%, red);
+	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+	
+	animation-name:helo;
+	animation:helo 3s linear infinite;
+}
+@keyframes helo{
+
+from{color : blue ;}
+to{color:white}
+}
+body 
+ { 
+background-image:url("https://images.unsplash.com/photo-1614360182734-121501b81cc2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1466&q=80");
+//background-image:url("https://images.unsplash.com/photo-1569697677626-26e7d32b65aa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80");
+//background-image:url("https://images.pexels.com/photos/247676/pexels-photo-247676.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+//background-image: url("https://images.pexels.com/photos/1579192/pexels-photo-1579192.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+// background-image:  url("https://images.unsplash.com/photo-1639605570199-a1ef68617af7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80");
+//  background-image: url("https://images.pexels.com/photos/2471234/pexels-photo-2471234.jpeg");
+//background-image: url("https://images.pexels.com/photos/68558/pexels-photo-68558.jpeg?cs=srgb&dl=pexels-miguel-%C3%A1-padri%C3%B1%C3%A1n-68558.jpg&fm=jpg");
+//background-image:url("https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80"); 
+display: flex;
+
+	background-size: cover;
+	background-repeat: no-repeat;
+// background: #f44336;
+	align-content: center;
+	justify-content: center;
+	align-items: end;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+::-moz-selection { /* Code for Firefox */
+  color: red;
+  background: white;
+}
+#date{
+ border-left: 4px dotted white;
+
+  }
+
+::selection {
+  color: red;
+  background: white;
+}
